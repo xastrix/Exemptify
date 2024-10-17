@@ -1,0 +1,9 @@
+.vs/
+
+bin/
+obj/
+
+Exemptify.sln
+Exemptify.vcxproj
+Exemptify.vcxproj.filters
+Exemptify.vcxproj.user
