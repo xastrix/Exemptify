@@ -1,6 +1,12 @@
 # Exemptify
 A utility that allows you to add application exceptions to the windows firewall, thereby blocking outgoing traffic.
+### Why may be useful
+- In cases when you are paranoid and afraid for your data, which can fly to the owner of some malicious program known as “Stealer”, with the help of this utility you can reinsure yourself and add suspicious software to exceptions, so without the Internet your data can not be intercepted.
+- By blocking Internet access for suspicious applications, you can minimize potential data breaches by making it harder for malware to steal sensitive information.
+- If an application is compromised or acting maliciously, disabling its Internet access can limit the damage by preventing it from communicating with malicious servers.
+> For users who value their security and are wary of potential threats, the ability to disable Internet access for certain applications provides reassurance that they are taking proactive steps to protect their data.
 ## Showcase
+##### Blocking internet access for Microsoft Edge
 ![Showcase](https://github.com/xastrix/Exemptify/blob/master/media/showcase.gif)
 ## Installing
 Clone the repository
