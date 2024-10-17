@@ -1,5 +1,20 @@
 # Exemptify
 A utility that allows you to add application exceptions to the windows firewall, thereby blocking outgoing traffic.
+```
+Usage
+  Exemptify <RuleID> <PathToTheDubiousApplication> --net-off
+    - Adds an exception rule for the specified application, disabling network access.
+    - <RuleID> is a unique identifier for the rule you are creating.
+    - <PathToTheDubiousApplication> is the file path to the application you want to exempt.
+
+  Exemptify <RuleID> --net-on
+    - Enables network access for the specified exception rule.
+    - <RuleID> must correspond to an existing rule created previously.
+
+Examples
+  Exemptify test1 /path/to/app.exe --net-off
+  Exemptify test1 --net-on
+```
 ### Why may be useful
 - In cases when you are paranoid and afraid for your data, which can fly to the owner of some malicious program known as “Stealer”, with the help of this utility you can reinsure yourself and add suspicious software to exceptions, so without the Internet your data can not be intercepted.
 - By blocking Internet access for suspicious applications, you can minimize potential data breaches by making it harder for malware to steal sensitive information.
