@@ -22,7 +22,7 @@ Examples
 > For users who value their security and are wary of potential threats, the ability to disable Internet access for certain applications provides reassurance that they are taking proactive steps to protect their data.
 ## Showcase
 ##### Blocking internet access for Microsoft Edge
-![Showcase](https://github.com/xastrix/Exemptify/blob/master/media/showcase.gif)
+![Showcase](https://github.com/xastrixpets/Exemptify/blob/master/media/showcase.gif)
 ## Installing
 Clone the repository
 ```c
