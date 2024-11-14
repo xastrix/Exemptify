@@ -26,7 +26,7 @@ Examples
 ## Installing
 Clone the repository
 ```c
- git clone https://github.com/xastrixpets/Exemptify.git
+ git clone https://github.com/xastrix/Exemptify.git
 ```
 Launch ```build-vsXX.bat``` (Where XX is the version of your VS).  
 After building, run ```Exemptify.sln``` (Visual Studio Solution File) and compile project by pressing ```CTRL + Shift + B```
